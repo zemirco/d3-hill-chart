@@ -1,0 +1,34 @@
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1;
+}
+
+circle {
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.middle {
+  fill: none;
+  stroke: lightgrey;
+  stroke-width: 1;
+  shape-rendering: crispedges;
+  stroke-dasharray: 5, 5;
+}
+
+.text {
+  text-transform: uppercase;
+  fill: #bbb;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.group {
+  cursor: move;
+}
+
+.group > text {
+  text-anchor: start;
+}
